@@ -30,10 +30,14 @@
   position: relative;
   left: 850px;
 }
+.principal p{
+  text-align: center;
+}
 .principal img{
   display: inline-flex;
   position: relative;
   width: 600px;
+  left: 640px;
 }
 .nota1 h3{
   display: inline-block;
@@ -51,6 +55,7 @@
   width: 600px;
 }
 .noticias{
+  background-color: rgb(58, 176, 255);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
