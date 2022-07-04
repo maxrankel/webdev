@@ -1,29 +1,32 @@
+.cuerpo{
+  background-color: black;
+}
 .cabecera{
   background-color: lavender;
+  border-radius: 20px;
 }
 .cabecera h1{
   display: inline-flex;
   position: relative;
-  bottom: 75px;
-}
-.cabecera h3{
-  display: inline-flex;
-  position: relative;
-  bottom: 30px;
-  right: 360px;
+  bottom: 53px;
+  left: 10px;
 }
 .cabecera img{
   display: inline-block;
   position: relative;
   top: 15px;
+  left: 10px;
   width: 150px;
   border-radius: 150px;
 }
 .navegador{
   background-color: rgb(247, 215, 22);
+  border-radius: 20px;
 }
+
 .principal{
   background-color:rgb(242, 76, 76)  ;
+  border-radius: 20px;
 }
 .principal h2{
   display: inline-flex;
@@ -37,22 +40,32 @@
   display: inline-flex;
   position: relative;
   width: 600px;
-  left: 640px;
+  left: 630px;
+  border-radius: 20px;
 }
 .nota1 h3{
   display: inline-block;
   position: relative;
-  bottom: 25px;
+  bottom: 15px;
 }
 .nota1 img{
   display: inline-block;
   position: relative;
   bottom: 25px;
   width: 750px;
-
+  border-radius: 20px;
+}
+.nota2 h3{
+  display: inline-block;
+  position: relative;
+  bottom: 25px;
 }
 .nota2 img{
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
   width: 600px;
+  border-radius: 20px;
 }
 .noticias{
   background-color: rgb(58, 176, 255);
@@ -61,6 +74,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  border-radius: 20px;
 }
 
 .nota1,.nota2{
@@ -72,4 +86,20 @@
 .nota1 h3,.nota2 h3{
   text-align: center;
   flex-basis: 100%;
+}
+.piePagina{
+  background-color: lime;
+  border-radius: 20px;
+}
+.piePagina p{
+  padding-top: 10px;
+
+}
+.redes img{
+  width: 30px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
 }
